@@ -70,6 +70,7 @@ void setup()
 
 }
 
+// _________________________________________________________________
 
 void loop()
 {
@@ -121,6 +122,8 @@ void loop()
 	transmitData(makeString);
 		Serial.println("---- Returned to main loop function...");
 }
+
+// _________________________________________________________________
 
 void transmitData(String dataString)
 {
